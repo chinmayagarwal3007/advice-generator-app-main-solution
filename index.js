@@ -1,0 +1,2 @@
+function myFunction(){
+fetch("https://api.adviceslip.com/advice").then(res => res.json()).then(data => {document.getElementById("quote").innerHTML = '"' + data.slip.advice + '"';document.getElementById("heading").innerHTML ="A D V I C E&nbsp&nbsp&nbsp#" +  data.slip.id})}
