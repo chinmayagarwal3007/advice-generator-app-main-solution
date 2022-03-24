@@ -50,12 +50,13 @@ body {
 
 
 .btn {
+    position: absolute;
+    bottom: -2rem;
     border-radius: 5rem;
     height: 3.4rem;
     width: 3.4rem;
     background-color: hsl(150, 100%, 66%);
     border: solid hsl(150, 100%, 66%) 0;
-    display: inline-block;
     cursor: pointer;
     text-align: center;
  }
